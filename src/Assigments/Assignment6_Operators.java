@@ -12,10 +12,10 @@ students*/
 		String[] studentNames = {"Suresh", "Mahesh", "Naresh"};
         int[] marks = {75, 80, 82};
 
-        // Step 2: Create another array to store updated marks
+        //  Create another array to store updated marks
         int[] updatedMarks = new int[marks.length];
 
-        // Step 3: Add 10 marks using assignment operator and store in updatedMarks
+        //  Add 10 marks using assignment operator and store in updatedMarks
         for (int i = 0; i < marks.length; i++) {
             marks[i] += 10;  // add 10 marks
             updatedMarks[i] = marks[i];  // store updated mark
